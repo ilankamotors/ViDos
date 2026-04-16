@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Sloy1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 921.14 917.31">
+  <defs>
+    <!-- Градиенты -->
+    <linearGradient id="_Безымянный_градиент_383" data-name="Безымянный градиент 383" x1="457.58" y1="333.96" x2="480.84" y2="333.96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#aeb2b7"/><stop offset=".23" stop-color="#8a8d91"/><stop offset=".73" stop-color="#313233"/><stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_266" data-name="Безымянный градиент 266" x1="548.96" y1="371.09" x2="777.25" y2="298.04" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d24a23"/><stop offset="1" stop-color="#e35129"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_259" data-name="Безымянный градиент 259" x1="156.89" y1="302.53" x2="359.54" y2="369.55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e25129"/><stop offset=".52" stop-color="#d54c24"/><stop offset="1" stop-color="#d04a22"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_331" data-name="Безымянный градиент 331" x1="452.64" y1="240.28" x2="523.94" y2="409.24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e37232"/><stop offset=".38" stop-color="#df6d2f"/><stop offset=".77" stop-color="#d4602a"/><stop offset="1" stop-color="#cb5625"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_328" data-name="Безымянный градиент 328" x1="442.85" y1="263.46" x2="405.88" y2="381.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e27232"/><stop offset=".43" stop-color="#df6f30"/><stop offset=".75" stop-color="#d7652c"/><stop offset="1" stop-color="#cc5826"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_624" data-name="Безымянный градиент 624" x1="238.89" y1="265.61" x2="376.96" y2="497.1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#859198"/><stop offset=".4" stop-color="#a2a8ae"/><stop offset=".75" stop-color="#b4b6bc"/><stop offset="1" stop-color="#bbbcc1"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_474" data-name="Безымянный градиент 474" x1="488.57" y1="491.25" x2="792.05" y2="386.87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0e0e2"/><stop offset="1" stop-color="#cecfd1"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_453" data-name="Безымянный градиент 453" x1="276.1" y1="483.82" x2="643.86" y2="483.82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cccdcf"/><stop offset="1" stop-color="#d3d4d6"/>
+    </linearGradient>
+
+    <!-- СРЕЗЫ ВИДИМОСТИ -->
+    <clipPath id="clipHotline" clipPathUnits="userSpaceOnUse">
+      <rect y="430" width="100%" height="100%"/>
+    </clipPath>
+    <clipPath id="clipAKZ" clipPathUnits="userSpaceOnUse">
+      <rect y="650" width="100%" height="100%"/>
+    </clipPath>
+
+    <!-- МАСКА ТРЕКА (Старт парами на 12ч/6ч → Вращение) -->
+    <mask id="trackMask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+      <rect width="100%" height="100%" fill="white"/>
+      
+      <!-- Маска 1: Старт 12ч → -45° → Верх-лево -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" 
+          values="0 460.57 458.66; 0 460.57 458.66; -45 460.57 458.66; -45 460.57 458.66" 
+          keyTimes="0; 0.167; 0.292; 1" calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" 
+          dur="12s" fill="freeze"/>
+        <circle cx="460.57" cy="2.74" r="19.5" fill="black"/>
+      </g>
+      
+      <!-- Маска 4: Старт 12ч → +45° → Верх-право -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" 
+          values="0 460.57 458.66; 0 460.57 458.66; 45 460.57 458.66; 45 460.57 458.66" 
+          keyTimes="0; 0.167; 0.292; 1" calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" 
+          dur="12s" fill="freeze"/>
+        <circle cx="460.57" cy="2.74" r="19.5" fill="black"/>
+      </g>
+      
+      <!-- Маска 3: Старт 6ч → +45° → Низ-право -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" 
+          values="0 460.57 458.66; 0 460.57 458.66; 45 460.57 458.66; 45 460.57 458.66" 
+          keyTimes="0; 0.167; 0.292; 1" calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" 
+          dur="12s" fill="freeze"/>
+        <circle cx="460.57" cy="914.58" r="19.5" fill="black"/>
+      </g>
+      
+      <!-- Маска 2: Старт 6ч → -45° → Низ-лево -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" 
+          values="0 460.57 458.66; 0 460.57 458.66; -45 460.57 458.66; -45 460.57 458.66" 
+          keyTimes="0; 0.167; 0.292; 1" calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" 
+          dur="12s" fill="freeze"/>
+        <circle cx="460.57" cy="914.58" r="19.5" fill="black"/>
+      </g>
+    </mask>
+  </defs>
+  
+  <!-- ТЕКСТЫ -->
+  <g clip-path="url(#clipHotline)">
+    <text x="460.57" y="634.92" text-anchor="middle" fill="#e35e00" font-family="Inter-Black, Inter" font-size="77.41" font-weight="800" letter-spacing=".02em">ХОТЛАЙН
+      <animateTransform attributeName="transform" type="translate"
+        values="0,-400; 0,-400; 0,-400; 0,-400; 0,0; 4,3; -4,-3; 0,0; 0,0"
+        keyTimes="0; 0.167; 0.333; 0.375; 0.417; 0.425; 0.433; 0.45; 1"
+        calcMode="spline" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1; 0.2 0 0.5 1; 0.3 0 0.7 1; 0.2 0 0.2 1; 0 0 1 1; 0 0 1 1"
+        dur="12s" fill="freeze"/>
+    </text>
+  </g>
+  
+  <g clip-path="url(#clipAKZ)">
+    <text x="460.57" y="674.97" text-anchor="middle" fill="#736357" font-family="Inter-Bold, Inter" font-size="28.06" font-weight="700" letter-spacing=".36em" stroke="#d34b23" stroke-miterlimit="10" stroke-width=".52">АКЗ
+      <animateTransform attributeName="transform" type="translate"
+        values="0,-200; 0,-200; 0,-200; 0,-200; 0,-200; 0,-200; 0,0; 3,2; -3,-2; 0,0; 0,0"
+        keyTimes="0; 0.167; 0.333; 0.375; 0.417; 0.45; 0.483; 0.492; 0.50; 0.517; 1"
+        calcMode="spline" keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0.2 0 0.5 1; 0.3 0 0.7 1; 0.2 0 0.2 1; 0 0 1 1; 0 0 1 1"
+        dur="12s" fill="freeze"/>
+    </text>
+  </g>
+
+  <!-- КОРАБЛЬ (ИЗМЕНЕНИЯ ЗДЕСЬ) -->
+  <g id="BoatSystem">
+    <!-- 1. Ускоренная тряска (0-1.5с) + 3. Слабая тряска при открытии (3.5с) -->
+    <animateTransform attributeName="transform" type="translate" 
+      values="0,0; 0,0; 15,-10; -15,10; 8,-5; -8,5; 0,0; 0,0; 0,0; 3,-2; -3,2; 0,0; 0,0" 
+      keyTimes="0; 0.083; 0.10; 0.12; 0.14; 0.167; 0.208; 0.292; 0.31; 0.325; 0.34; 0.36; 1" 
+      calcMode="spline" keySplines="0 0 1 1; 0.2 0 0.2 1; 0.4 0 0.2 1; 0.4 0 0.2 1; 0 0 1 1; 0 0 1 1; 0 0 1 1; 0.2 0 0.2 1; 0.4 0 0.2 1; 0 0 1 1; 0 0 1 1; 0 0 1 1" 
+      dur="12s" fill="freeze"/>
+
+    <!-- Паруса и Корпус (Открываются на 0.292 / 3.5с) -->
+    <polygon id="VnutLevOsnov" points="138.25 297.38 371.85 350.46 352.18 390.27 138.25 297.38" fill="url(#_Безымянный_градиент_259)">
+      <animate attributeName="points" values="460.57 116 371.85 350.46 352.18 390.27 460.57 116; 460.57 116 371.85 350.46 352.18 390.27 460.57 116; 138.25 297.38 371.85 350.46 352.18 390.27 138.25 297.38; 138.25 297.38 371.85 350.46 352.18 390.27 138.25 297.38" keyTimes="0; 0.292; 0.333; 1" calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" dur="12s" fill="freeze"/>
+    </polygon>
+    <polygon id="VnutrPravOsnov" points="543.2 347.58 782.89 296.85 569.89 389.74 543.2 347.58" fill="url(#_Безымянный_градиент_266)">
+      <animate attributeName="points" values="543.2 347.58 460.57 116 569.89 389.74 543.2 347.58; 543.2 347.58 460.57 116 569.89 389.74 543.2 347.58; 543.2 347.58 782.89 296.85 569.89 389.74 543.2 347.58; 543.2 347.58 782.89 296.85 569.89 389.74 543.2 347.58" keyTimes="0; 0.292; 0.333; 1" calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" dur="12s" fill="freeze"/>
+    </polygon>
+    
+    <!-- Мачты (Рост начинается на 2.5с (0.208) - РАНЬШЕ НА 1 СЕКУНДУ) -->
+    <polygon id="MatchMejLevPrav" points="448.9 229.65 450.86 433.82 461.97 438.28 472.17 433.16 448.9 229.65" fill="url(#_Безымянный_градиент_383)">
+      <animate attributeName="points" values="448.9 479.65 450.86 433.82 461.97 438.28 472.17 433.16 448.9 479.65; 448.9 479.65 450.86 433.82 461.97 438.28 472.17 433.16 448.9 479.65; 448.9 229.65 450.86 433.82 461.97 438.28 472.17 433.16 448.9 229.65; 448.9 229.65 450.86 433.82 461.97 438.28 472.17 433.16 448.9 229.65" keyTimes="0; 0.208; 0.292; 1" calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" dur="12s" fill="freeze"/>
+    </polygon>
+    <polygon id="Pravmachta" points="448.9 229.65 471.7 432.39 576.46 386.76 448.9 229.65" fill="url(#_Безымянный_градиент_331)">
+      <animate attributeName="points" values="448.9 479.65 471.7 432.39 576.46 386.76 448.9 479.65; 448.9 479.65 471.7 432.39 576.46 386.76 448.9 479.65; 448.9 229.65 471.7 432.39 576.46 386.76 448.9 229.65; 448.9 229.65 471.7 432.39 576.46 386.76 448.9 229.65" keyTimes="0; 0.208; 0.292; 1" calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" dur="12s" fill="freeze"/>
+    </polygon>
+    <polygon id="levmachta" points="448.9 229.65 342.57 385.72 451.98 432.69 448.9 229.65" fill="url(#_Безымянный_градиент_328)">
+      <animate attributeName="points" values="448.9 479.65 342.57 385.72 451.98 432.69 448.9 479.65; 448.9 479.65 342.57 385.72 451.98 432.69 448.9 479.65; 448.9 229.65 342.57 385.72 451.98 432.69 448.9 229.65; 448.9 229.65 342.57 385.72 451.98 432.69 448.9 229.65" keyTimes="0; 0.208; 0.292; 1" calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" dur="12s" fill="freeze"/>
+    </polygon>
+
+    <!-- Корпус (Нижняя часть) -->
+    <polygon id="Levosnova" points="138.25 297.38 276.1 531.01 461.97 436.63 138.25 297.38" fill="url(#_Безымянный_градиент_624)">
+      <animate attributeName="points" values="460.57 116 276.1 531.01 461.97 436.63 460.57 116; 460.57 116 276.1 531.01 461.97 436.63 460.57 116; 138.25 297.38 276.1 531.01 461.97 436.63 138.25 297.38; 138.25 297.38 276.1 531.01 461.97 436.63 138.25 297.38" keyTimes="0; 0.292; 0.333; 1" calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" dur="12s" fill="freeze"/>
+    </polygon>
+    <polygon id="Pravosnova" points="461.97 436.63 782.89 296.85 643.86 531.01 461.97 436.63" fill="url(#_Безымянный_градиент_474)">
+      <animate attributeName="points" values="461.97 436.63 460.57 116 643.86 531.01 461.97 436.63; 461.97 436.63 460.57 116 643.86 531.01 461.97 436.63; 461.97 436.63 782.89 296.85 643.86 531.01 461.97 436.63; 461.97 436.63 782.89 296.85 643.86 531.01 461.97 436.63" keyTimes="0; 0.292; 0.333; 1" calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" dur="12s" fill="freeze"/>
+    </polygon>
+    <polygon id="Nizosnova" points="276.1 531.01 461.97 436.63 643.86 531.01 276.1 531.01" fill="url(#_Безымянный_градиент_453)"/>
+  </g>
+  
+  <!-- ТРЕК -->
+  <g id="ElipsTrack">
+    <path d="M460.57,2.74c252.85,0,457.83,204.12,457.83,455.92s-204.98,455.92-457.83,455.92S2.74,710.45,2.74,458.66,207.72,2.74,460.57,2.74M460.57,0c-62.17,0-122.49,12.13-179.27,36.04-54.84,23.1-104.1,56.17-146.4,98.29-42.3,42.12-75.51,91.17-98.71,145.79C12.18,336.67,0,396.74,0,458.66s12.18,121.99,36.2,178.53c23.2,54.62,56.41,103.67,98.71,145.79,42.3,42.12,91.55,75.19,146.4,98.29,56.78,23.92,117.1,36.04,179.27,36.04s122.49-12.13,179.27-36.04c54.84-23.1,104.1-56.17,146.4-98.29,42.3-42.12,75.51-91.17,98.71-145.79,24.02-56.55,36.2-116.62,36.2-178.53s-12.18-121.99-36.2-178.53c-23.2-54.62-56.41-103.67-98.71-145.79-42.3-42.12-91.55-75.19-146.4-98.29C583.06,12.13,522.75,0,460.57,0h0Z" 
+          fill="#ce5a27" mask="url(#trackMask)"/>
+  </g>
+  
+  <!-- КРУГИ 1234 (Старт парами на 12ч/6ч → Вращение → Свои места) -->
+  <g id="Elips1">
+    <animateTransform attributeName="transform" type="rotate" 
+      values="0 460.57 458.66; 0 460.57 458.66; -45 460.57 458.66; -45 460.57 458.66" 
+      keyTimes="0; 0.167; 0.292; 1" 
+      calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" 
+      dur="12s" fill="freeze"/>
+    <circle cx="460.57" cy="2.74" r="18" fill="none" stroke="#ce5a27" stroke-width="3"/>
+  </g>
+  <g id="Elips4">
+    <animateTransform attributeName="transform" type="rotate" 
+      values="0 460.57 458.66; 0 460.57 458.66; 45 460.57 458.66; 45 460.57 458.66" 
+      keyTimes="0; 0.167; 0.292; 1" 
+      calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" 
+      dur="12s" fill="freeze"/>
+    <circle cx="460.57" cy="2.74" r="18" fill="none" stroke="#ce5a27" stroke-width="3"/>
+  </g>
+  <g id="Elips3">
+    <animateTransform attributeName="transform" type="rotate" 
+      values="0 460.57 458.66; 0 460.57 458.66; 45 460.57 458.66; 45 460.57 458.66" 
+      keyTimes="0; 0.167; 0.292; 1" 
+      calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" 
+      dur="12s" fill="freeze"/>
+    <circle cx="460.57" cy="914.58" r="18" fill="none" stroke="#ce5a27" stroke-width="3"/>
+  </g>
+  <g id="Elips2">
+    <animateTransform attributeName="transform" type="rotate" 
+      values="0 460.57 458.66; 0 460.57 458.66; -45 460.57 458.66; -45 460.57 458.66" 
+      keyTimes="0; 0.167; 0.292; 1" 
+      calcMode="spline" keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" 
+      dur="12s" fill="freeze"/>
+    <circle cx="460.57" cy="914.58" r="18" fill="none" stroke="#ce5a27" stroke-width="3"/>
+  </g>
+</svg>
